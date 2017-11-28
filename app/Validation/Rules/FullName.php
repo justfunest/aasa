@@ -20,6 +20,6 @@ class FullName extends AbstractRule
      */
     public function validate($input)
     {
-        return preg_match("/^\s*[a-z]+\s+[a-z]+(\s*|(\s+[a-z]+)*)$/", $input);
+        return preg_match("/^\s*[a-zA-Z]+\s+[a-zA-Z]+(\s*|(\s+[a-zA-Z]+)*)$/", $input);
     }
 }

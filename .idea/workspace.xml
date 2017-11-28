@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c881c29-b36c-4fee-ba6b-e1936bd54db7" name="Default" comment="" />
+    <list default="true" id="9c881c29-b36c-4fee-ba6b-e1936bd54db7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Validation/Rules/FullName.php" afterPath="$PROJECT_DIR$/app/Validation/Rules/FullName.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,16 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controllers/Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Middleware.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Middleware/Middleware.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,11 +93,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="create.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/loans/create.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="882">
               <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FullName.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Validation/Rules/FullName.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="69" lean-forward="false" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -167,12 +169,12 @@
         <option value="$PROJECT_DIR$/tests/lollTest.php" />
         <option value="$PROJECT_DIR$/app/Validation/Rules/PersonalCode.php" />
         <option value="$PROJECT_DIR$/tests/PersonalCodeTest.php" />
-        <option value="$PROJECT_DIR$/app/Validation/Rules/FullName.php" />
         <option value="$PROJECT_DIR$/app/Controllers/LoanController.php" />
         <option value="$PROJECT_DIR$/bootstrap/app.php" />
         <option value="$PROJECT_DIR$/app/Controllers/Controller.php" />
         <option value="$PROJECT_DIR$/app/Validation/ValidationRules.php" />
         <option value="$PROJECT_DIR$/resources/views/loans/create.twig" />
+        <option value="$PROJECT_DIR$/app/Validation/Rules/FullName.php" />
       </list>
     </option>
   </component>
@@ -234,6 +236,13 @@
               <item name="aasaglobal" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Validation" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aasaglobal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aasaglobal" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Validation" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Rules" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="aasaglobal" type="b2602c69:ProjectViewProjectNode" />
@@ -318,12 +327,12 @@
       <option name="presentableId" value="Default" />
       <updated>1511542890920</updated>
       <workItem from="1511542892244" duration="6878000" />
-      <workItem from="1511553999058" duration="92313000" />
+      <workItem from="1511553999058" duration="92656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99191000" />
+    <option name="totallyTimeSpent" value="99534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -651,14 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Validation/Rules/FullName.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="63" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/PersonalCodeTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -769,6 +770,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Validation/Rules/FullName.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="69" lean-forward="false" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
           <folding />
         </state>
       </provider>
