@@ -1,0 +1,48 @@
+{% extends "layouts/app.twig" %}
+{% block content %}
+
+
+<a href="{{ router.pathFor('loans.create') }}" class="btn btn-info" role="button">Lisa laen</a>
+<br><br>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            Nimi
+        </th>
+        <th>
+            Isikukood
+        </th>
+        <th>
+            Laenu summa
+        </th>
+        <th>
+            Periood kuudes
+        </th>
+        <th>Eesmärk</th>
+    </tr>
+    </thead>
+    <tbody>
+        {% for loan in loans %}
+        <tr class="active">
+            <td>
+                {{ loan.name }}
+            </td>
+            <td>
+                {{ loan.personal_code }}
+            </td>
+            <td>
+                {{ loan.amount }}
+            </td>
+            <td>
+                {{ loan.period }}
+            </td>
+            <td>
+                {{ loan.purpose }}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
